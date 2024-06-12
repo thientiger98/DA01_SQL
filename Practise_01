@@ -1,1 +1,3 @@
-
+Select Name From City Where Population>120000 AND countrycode = 'USA'
+Select * From City
+Select * From City
