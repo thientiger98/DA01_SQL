@@ -1,3 +1,8 @@
 Select Name From City Where Population>120000 AND countrycode = 'USA'
 Select * From City
 Select * From City
+Select * From City Where countrycode='JPN'
+Select name From City Where countrycode='JPN'
+Select city,state From Station
+Select distinct city From Station where ID % 2=0
+Select (Count(city)-Count(distinct city)) From Station
